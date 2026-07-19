@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="160" viewBox="0 0 1100 160" role="img" aria-label="QA pipeline">
+  <rect width="1100" height="160" rx="20" fill="#0D1117"/>
+
+  <!--
+    Centered grid:
+    margin=48, box=196, gap=60
+    4*196 + 3*60 = 964; start=(1100-964)/2=68
+    midY = 80
+  -->
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <!-- 01 -->
+    <rect x="68" y="32" width="196" height="96" rx="14" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+    <text x="166" y="60" fill="#8B949E" font-size="12" letter-spacing="2">01</text>
+    <text x="166" y="86" fill="#F0F6FC" font-size="18" font-weight="700">Plan</text>
+    <text x="166" y="108" fill="#8B949E" font-size="12">risk · coverage</text>
+
+    <line x1="272" y1="80" x2="302" y2="80" stroke="#3DDC97" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="302,74 316,80 302,86" fill="#3DDC97"/>
+
+    <!-- 02 -->
+    <rect x="324" y="32" width="196" height="96" rx="14" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+    <text x="422" y="60" fill="#8B949E" font-size="12" letter-spacing="2">02</text>
+    <text x="422" y="86" fill="#F0F6FC" font-size="18" font-weight="700">Automate</text>
+    <text x="422" y="108" fill="#8B949E" font-size="12">POM · fixtures</text>
+
+    <line x1="528" y1="80" x2="558" y2="80" stroke="#3DDC97" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="558,74 572,80 558,86" fill="#3DDC97"/>
+
+    <!-- 03 -->
+    <rect x="580" y="32" width="196" height="96" rx="14" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+    <text x="678" y="60" fill="#8B949E" font-size="12" letter-spacing="2">03</text>
+    <text x="678" y="86" fill="#F0F6FC" font-size="18" font-weight="700">Stabilize</text>
+    <text x="678" y="108" fill="#8B949E" font-size="12">anti-flaky · waits</text>
+
+    <line x1="784" y1="80" x2="814" y2="80" stroke="#3DDC97" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="814,74 828,80 814,86" fill="#3DDC97"/>
+
+    <!-- 04 -->
+    <rect x="836" y="32" width="196" height="96" rx="14" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+    <text x="934" y="60" fill="#8B949E" font-size="12" letter-spacing="2">04</text>
+    <text x="934" y="86" fill="#F0F6FC" font-size="18" font-weight="700">Ship CI</text>
+    <text x="934" y="108" fill="#8B949E" font-size="12">Actions · reports</text>
+  </g>
+</svg>

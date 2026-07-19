@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3DDC97" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="screen">
+      <rect x="24" y="64" width="1052" height="332" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1100" height="420" rx="22" fill="#0D1117"/>
+  <rect width="1100" height="420" rx="22" fill="url(#glow)"/>
+
+  <!-- title bar -->
+  <rect width="1100" height="48" rx="22" fill="#161B22"/>
+  <rect y="24" width="1100" height="24" fill="#161B22"/>
+  <circle cx="36" cy="24" r="7" fill="#FF5F56"/>
+  <circle cx="60" cy="24" r="7" fill="#FFBD2E"/>
+  <circle cx="84" cy="24" r="7" fill="#27C93F"/>
+  <text x="550" y="30" text-anchor="middle" fill="#8B949E" font-family="JetBrains Mono, Consolas, monospace" font-size="14">playwright test · chromium</text>
+
+  <!-- terminal body -->
+  <rect x="24" y="64" width="1052" height="332" rx="12" fill="#010409"/>
+  <g clip-path="url(#screen)" font-family="JetBrains Mono, Consolas, monospace">
+    <text x="48" y="100" fill="#8B949E" font-size="15">$ npx playwright test --project=chromium</text>
+
+    <text x="48" y="140" fill="#3DDC97" font-size="15" opacity="0">
+      <tspan fill="#3DDC97">✓</tspan>
+      <tspan fill="#C9D1D9">  tests/auth/login.spec.ts:12 </tspan>
+      <tspan fill="#8B949E">should login with valid credentials</tspan>
+      <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.12;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="48" y="172" fill="#3DDC97" font-size="15" opacity="0">
+      <tspan fill="#3DDC97">✓</tspan>
+      <tspan fill="#C9D1D9">  tests/api/users.spec.ts:8 </tspan>
+      <tspan fill="#8B949E">should return 200 and valid schema</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.28;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="48" y="204" fill="#3DDC97" font-size="15" opacity="0">
+      <tspan fill="#3DDC97">✓</tspan>
+      <tspan fill="#C9D1D9">  tests/checkout/flow.spec.ts:21 </tspan>
+      <tspan fill="#8B949E">should complete purchase end-to-end</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.42;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="48" y="236" fill="#3DDC97" font-size="15" opacity="0">
+      <tspan fill="#3DDC97">✓</tspan>
+      <tspan fill="#C9D1D9">  tests/ci/smoke.spec.ts:5 </tspan>
+      <tspan fill="#8B949E">should keep critical paths green</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.56;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="48" y="284" fill="#8B949E" font-size="15" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.62;0.7;1" dur="8s" repeatCount="indefinite"/>
+      4 passed (12.4s)
+    </text>
+
+    <text x="48" y="316" fill="#3DDC97" font-size="15" font-weight="700" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.72;0.8;1" dur="8s" repeatCount="indefinite"/>
+      All green. Ship it.
+    </text>
+
+    <text x="48" y="360" fill="#3DDC97" font-size="16" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1" keyTimes="0;0.82;0.86;0.93;1" dur="8s" repeatCount="indefinite"/>
+      ▍
+    </text>
+  </g>
+</svg>

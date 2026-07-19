@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" fill="none">
+  <defs>
+    <linearGradient id="line" x1="0" y1="28" x2="1200" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3DDC97" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#3DDC97" stop-opacity="0.7"/>
+      <stop offset="0.8" stop-color="#3DDC97" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#3DDC97" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="28" text-anchor="middle" fill="#3DDC97" font-family="JetBrains Mono, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="6">LIVE TEST RUN</text>
+  <rect x="0" y="42" width="1200" height="2" fill="url(#line)"/>
+</svg>

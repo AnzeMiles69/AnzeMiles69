@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="400" viewBox="0 0 1100 400">
+  <defs>
+    <clipPath id="card">
+      <rect width="1100" height="400" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1100" height="400" fill="#0D1117"/>
+    <rect width="10" height="400" fill="#3DDC97"/>
+  </g>
+
+  <text x="48" y="56" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3">WHO I AM</text>
+  <text x="48" y="104" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">QA Engineer who ships</text>
+  <text x="48" y="144" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">stable automation</text>
+  <text x="48" y="188" fill="#A8B3BD" font-family="Arial, Helvetica, sans-serif" font-size="16">Playwright + TypeScript. UI, API, E2E.</text>
+  <text x="48" y="214" fill="#A8B3BD" font-family="Arial, Helvetica, sans-serif" font-size="16">Frameworks that scale. CI that stays green.</text>
+
+  <rect x="48" y="250" width="132" height="34" rx="17" fill="#3DDC97"/>
+  <text x="114" y="272" text-anchor="middle" fill="#0D1117" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">PLAYWRIGHT</text>
+
+  <rect x="192" y="250" width="78" height="34" rx="17" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+  <text x="231" y="272" text-anchor="middle" fill="#3DDC97" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">E2E</text>
+
+  <rect x="282" y="250" width="78" height="34" rx="17" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+  <text x="321" y="272" text-anchor="middle" fill="#3DDC97" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">API</text>
+
+  <rect x="372" y="250" width="70" height="34" rx="17" fill="#161B22" stroke="#3DDC97" stroke-width="1.5"/>
+  <text x="407" y="272" text-anchor="middle" fill="#3DDC97" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">CI</text>
+
+  <text x="48" y="330" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="14">Telegram @Lunch99</text>
+  <text x="48" y="356" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="14">sondima89@gmail.com</text>
+
+  <rect x="560" y="32" width="508" height="336" rx="18" fill="#161B22"/>
+  <text x="596" y="74" fill="#3DDC97" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3">WHAT YOU GET</text>
+
+  <circle cx="608" cy="128" r="6" fill="#3DDC97"/>
+  <text x="632" y="124" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Anti-flaky test design</text>
+  <text x="632" y="148" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="14">Web-first asserts, smart waits, stable runs</text>
+
+  <circle cx="608" cy="208" r="6" fill="#3DDC97"/>
+  <text x="632" y="204" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">POM + fixtures architecture</text>
+  <text x="632" y="228" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="14">Clean Page Objects that scale with product</text>
+
+  <circle cx="608" cy="288" r="6" fill="#3DDC97"/>
+  <text x="632" y="284" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CI-ready pipelines</text>
+  <text x="632" y="308" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="14">GitHub Actions, HTML reports, fast feedback</text>
+</svg>
